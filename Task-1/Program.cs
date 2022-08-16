@@ -1,10 +1,10 @@
 ﻿// По двум заданным числам проверить, является ли первое квадратом второго
 Console.Write("Введите первое число: ");
-string strA = Console.ReadLine();
-int a = int.Parse(strA);
+string numA = Console.ReadLine();
+int a = int.Parse(numA);
 Console.Write("Введите второе число: ");
-string strB = Console.ReadLine();
-int b = int.Parse(strB);
+string numB = Console.ReadLine();
+int b = int.Parse(numB);
 
 if (a == b * b)
 {
